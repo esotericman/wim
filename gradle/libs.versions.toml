@@ -1,0 +1,21 @@
+[versions]
+windward-version = "1.5.3-RELEASE"
+logback-version = "1.5.6"
+jackson-version = "2.15.2"
+protobuf-java-version = "3.25.3"
+protobuf-javanano-version = "3.1.0"
+spring-version = "6.1.8"
+mongodb-driver-version = "5.1.0"
+lombok-version = "1.18.32"
+
+[libraries]
+windward = { module = "org.flmelody:windward", version.ref = "windward-version" }
+logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback-version" }
+jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson-version" }
+jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "jackson-version" }
+protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "protobuf-java-version" }
+protobuf-java-util = { module = "com.google.protobuf:protobuf-java-util", version.ref = "protobuf-java-version" }
+protobuf-javanano = { module = "com.google.protobuf.nano:protobuf-javanano", version.ref = "protobuf-javanano-version" }
+spring-context = { module = "org.springframework:spring-context", version.ref = "spring-version" }
+mongodb-driver = { module = "org.mongodb:mongodb-driver-sync", version.ref = "mongodb-driver-version" }
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok-version" }
